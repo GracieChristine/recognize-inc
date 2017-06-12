@@ -36,7 +36,3 @@ HTML5, CSS3, Bootstrap Framework, JavaScript, jQuery
 2. Replaying Video
 3. Transcription
 4. Translation
-# recognize-inc
-# recognize-inc-app
-# recognize-inc-app
-# recognize
