@@ -55,13 +55,15 @@ hr {
   text-align: center;
 }
 
-.ziggeo-video {
-  width: 100%;
-  display: block;
+.ziggeo-video-playing {
+  width: 400px;
   margin: 0 auto;
 }
 
-.youtube-video {
+ziggeo {
+}
+
+.youtube-video-playing {
   text-align: center;
 }
 
