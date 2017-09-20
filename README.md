@@ -1,5 +1,7 @@
 # Q1 Project - Recognize Inc.
 
+## Currently being refactoring! Coming soon.
+
 Web Demo: http://graciechristine-recognize-inc.surge.sh
 Video Demo: https://youtu.be/k-C_eZLznGE
 
