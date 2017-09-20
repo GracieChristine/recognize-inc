@@ -114,18 +114,18 @@ else {
   recognition.onstart = function() {
     recognizing = true;
     showInfo("info_speak_now");
-    start_img.src = "./images/transcription/mic-animate.gif";
+    start_img.src = "img/speech/mic-animate.gif";
   };
 
   //  Fired when a speech recognition error occurs.
   recognition.onerror = function(event) {
     if (event.error === "no-speech") {
-      start_img.src = "./images/transcription/mic.gif";
+      start_img.src = "img/speech/mic.gif";
       showInfo("info_no_speech");
       ignoreOnend = true;
     }
     if (event.error === "audio-capture") {
-      start_img.src = "./images/transcription/mic.gif";
+      start_img.src = "img/speech/mic.gif";
       showInfo("info_no_microphone");
       ignoreOnend = true;
     }
@@ -146,7 +146,7 @@ else {
     if (ignoreOnend) {
       return;
     }
-    start_img.src = "./images/transcription/mic.gif";
+    start_img.src = "img/speech/mic.gif";
     if (!finalTranscription) {
       showInfo("info_start");
 
@@ -264,7 +264,7 @@ function startButton(event) {
   ignoreOnend = false;
   final_span.innerHTML = "";
   interim_span.innerHTML = "";
-  start_img.src = "./images/transcription/mic-slash.gif";
+  start_img.src = "img/speech/mic-slash.gif";
   showInfo("info_allow");
   showButtons("none");
   startTimeStamp = event.timeStamp;
