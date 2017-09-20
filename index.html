@@ -52,26 +52,23 @@
   <!-- FEATURES END -->
 
   <!-- VIDEO PLAYER -->
-  <div id="take-a-video">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="section-title">
-            <h2>Upload it or Record it</h2>
-            <hr>
-          </div>
-          <p>There are endless possibilities - Get one...Or just create a funny one, a serious one, a laughable one, or a crazy one - Simply put it, you can record anything you want.</p>
-
-          <br>
-          <div id="videoRecording">
-            <ziggeorecorder ziggeo-width=600 ziggeo-height=500 ziggeo-timelimit=120 id="ziggeo_recorder">
-            </ziggeorecorder>
-          </div>
-          <!-- <br> -->
-          <a href="#transcript" class="down-btn page-scroll">
-                      <span class="fa fa-angle-down"></span>
-                  </a>
-        </div>
+  <div class="container">
+    <div class="row">
+      <p class="video-statement">
+        Simply speak to the Mic or Use <a href="https://rogueamoeba.com/loopback/"><b>Loopback</b></a> to stream a video/audio.
+      </p>
+      <br>
+      <div class="col-12 col-md-6 ziggeo-player">
+        <ziggeo ziggeo-video="79ca238eaf0d3a6adb095a3f3ea143f9" ziggeo-width=350 ziggeo-height=250>
+      </div>
+      <div class="col-12 col-md-6 ziggeo-player">
+        <ziggeo ziggeo-video="80b243ff58ce34bb90120876edc0a061" ziggeo-width=350 ziggeo-height=250>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-12 col-md-12 youtube">
+        <iframe src="https://www.youtube.com/embed/sIgv3tTYYqQ" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -100,6 +97,7 @@
   <script type="text/javascript">
     ZiggeoApi.token = "545c23b5e9ea038dd4fb8cb47f40609a"
   </script>
+  <!-- <script type="text/javascript" src="./ziggeo.js"></script> -->
   <script type="text/javascript" src="./app.js"></script>
 </body>
 

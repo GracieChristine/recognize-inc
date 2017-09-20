@@ -33,6 +33,7 @@ hr {
 }
 
 .features div {
+  margin: 0px 0px 50px 0px;
   padding: 60px 30px;
   position: relative;
   transition: all 0.4s ease-in-out;
