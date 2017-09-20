@@ -8,8 +8,9 @@
   <!-- STYLESHEETS -->
   <!-- Bootstrap JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <!-- Ziggeo CSS -->
+  <!-- Ziggeo Camera CSS -->
   <link rel="stylesheet" href="https://assets-cdn.ziggeo.com/v1-stable/ziggeo.css" />
+  <!-- My Own CSS -->
   <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -51,18 +52,39 @@
   <!-- FEATURES END -->
 
   <!-- VIDEO PLAYER -->
-  <ziggeorecorder ziggeo-timelimit=15 ziggeo-width=320 ziggeo-height=240 ziggeo-theme='modern' id="myRecorder">
-  </ziggeorecorder>
+  <div id="take-a-video">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="section-title">
+            <h2>Upload it or Record it</h2>
+            <hr>
+          </div>
+          <p>There are endless possibilities - Get one...Or just create a funny one, a serious one, a laughable one, or a crazy one - Simply put it, you can record anything you want.</p>
+
+          <br>
+          <div id="videoRecording">
+            <ziggeorecorder ziggeo-width=600 ziggeo-height=500 ziggeo-timelimit=120 id="ziggeo_recorder">
+            </ziggeorecorder>
+          </div>
+          <!-- <br> -->
+          <a href="#transcript" class="down-btn page-scroll">
+                      <span class="fa fa-angle-down"></span>
+                  </a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- VIDEO PLAYER END -->
 
   <!-- JAVASCRIPTS -->
   <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <!-- Bootstrap JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Typed JS -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
-  <script>
+  <script type="text/javascript">
     $(function() {
       $(".writing-statement").typed({
         strings: ["We record and process^1000", "24/7 available usage^1000", "Transcribe and  Translate^1000"],
@@ -73,9 +95,10 @@
     });
   </script>
   <!-- Ziggeo JS -->
-  <script src="//assets-cdn.ziggeo.com/v1-stable/ziggeo.js"></script>
-  <script>
-    ZiggeoApi.token = "545c23b5e9ea038dd4fb8cb47f40609a";
+  <script type="text/javascript" src="https://assets-cdn.ziggeo.com/v1-stable/ziggeo.js">
+  </script>
+  <script type="text/javascript">
+    ZiggeoApi.token = "545c23b5e9ea038dd4fb8cb47f40609a"
   </script>
   <script type="text/javascript" src="./app.js"></script>
 </body>
