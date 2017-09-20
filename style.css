@@ -1,5 +1,10 @@
 /**** GENERAL  ****/
 
+.container {
+  margin: 25px auto;
+  padding: 10px auto;
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -73,6 +78,10 @@ iframe {
 
 
 /**** SPEECH TRANSCRIPTION ****/
+
+#transcript {
+  margin: 50px auto;
+}
 
 a:link {
     color: #000;
