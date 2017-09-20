@@ -19,3 +19,25 @@ hr {
   text-align: right;
   margin: 12px 0;
 }
+
+/**** WRITING STATEMENTS  ****/
+
+.lead {
+  text-align: center;
+}
+
+/**** FEATURES  ****/
+
+.features {
+  text-align: center;
+}
+
+.features div {
+  padding: 60px 30px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+}
+
+.features div:hover {
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+}

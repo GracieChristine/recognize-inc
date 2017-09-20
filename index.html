@@ -13,17 +13,52 @@
 
 <body>
 
+  <!-- NAVBAR -->
   <nav class="navbar navbar-light bg-faded">
     <div class="row">
-      <div class="col-4"><a class="navbar-brand" href="#"><h3>Recognize Inc.</h3></a></div>
-      <div class="col-8"><h5 class="navbar-description">A simple speech translational plateform.</h5></div>
+      <div class="col-12 col-md-4"><a class="navbar-brand" href="#"><h3>Recognize Inc.</h3></a></div>
+      <div class="col-12 col-md-8">
+        <h5 class="navbar-description">A simple speech translational plateform.</h5></div>
     </div>
   </nav>
-  <hr>
+  <!-- <hr> -->
+
+  <!-- WRITING STATEMENTS -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h3 class="lead"><span class="writing-statement"></span></h3>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <div class="container">
+    <div class="row features">
+      <div class="col-12 col-md-4">
+        <h6>Video Recording</h6>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6>Speech Transcription</h6>
+      </div>
+      <div class="col-12 col-md-4">
+        <h6>Text Translation</h6>
+      </div>
+    </div>
+  </div>
 
   <!-- JAVASCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+  <script>
+      $(function() {
+          $(".writing-statement").typed({
+              strings: ["We record and process^1000", "24/7 available usage^1000", "Transcribe and  Translate^1000"],
+              typeSpeed: 100,
+              loop: true,
+              startDelay: 100
+          });
+      });
+  </script>
   <script type="text/javascript" src="./app.js"></script>
 </body>
 
