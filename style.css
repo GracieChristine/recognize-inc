@@ -62,18 +62,18 @@ hr {
 
 .ziggeo-video-playing {
   width: 400px;
-  margin: 0 auto;
+  margin: 10px auto;
 }
-
-ziggeo {}
 
 .youtube-video-playing {
   text-align: center;
 }
 
 iframe {
-  width: 80%;
-  height: 325px;
+  width: 600px;
+  height: 275px;
+  margin: 0 auto;
+  frameborder: 0;
 }
 
 
