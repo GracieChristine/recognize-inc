@@ -78,7 +78,8 @@
   <!-- ZIGGEO VIDEO END -->
 
   <!-- SPEECH TRANSCRIPTION -->
-    <div class="container">
+
+  <!-- <div class="container">
       <div class="row text-center">
         <div class="col-md-12 " id="transcript">
           <div id="info">
@@ -108,28 +109,52 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+  <div class="container">
+    <div class="row">
+      <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
+      <div class="app">
+        <h3>Add New Note</h3>
+        <div class="input-single">
+          <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+        </div>
+        <button id="start-record-btn" title="Start Recording">Start Recognition</button>
+        <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
+        <button id="save-note-btn" title="Save Note">Save Note</button>
+        <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
+
+        <h3>My Notes</h3>
+        <ul id="notes">
+          <li>
+            <p class="no-notes">You don't have any notes.</p>
+          </li>
+        </ul>
+
+      </div>
     </div>
+  </div>
 
   <!-- SPEECH TRANSCRIPTION END -->
 
   <!-- TEXT TRANSLATION -->
   <div id="translate">
-      <div class="container">
-          <div class="row text-center">
-              <div class="col-md-12">
-                  <div class="section-title">
-                      <h2>Translate it</h2>
-                      <hr>
-                  </div>
-                  <div>
-                    <b>Transcribed Text / Your Own Text</b>
-                    <br>
-                    <textarea id="text" cols="70" rows="5"></textarea>
-                  </div>
-                  <br>
-                  <div class="processingText">
-                    <b>Language of Interest: </b>
-                    <select id="target">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <div class="section-title">
+            <h2>Translate it</h2>
+            <hr>
+          </div>
+          <div>
+            <b>Transcribed Text / Your Own Text</b>
+            <br>
+            <textarea id="text" cols="70" rows="5"></textarea>
+          </div>
+          <br>
+          <div class="processingText">
+            <b>Language of Interest: </b>
+            <select id="target">
                       <optgroup label="Afrikaans">
                         <option value="af">South Africa</option>
                       </optgroup>
@@ -306,24 +331,22 @@
                         <option value="zu">South Africa</option>
                       </optgroup>
                     </select>
-                    <input type="button" value="Translate"  onclick="showIt()"/>
-                  </div>
-                  <br>
-                  <div>
-                    <b>Translated Text</b><br><div id="translated"></div>
-                  </div>
-              </div>
+            <input type="button" value="Translate" onclick="showIt()" />
           </div>
+          <br>
+          <div>
+            <b>Translated Text</b><br>
+            <div id="translated"></div>
+          </div>
+        </div>
       </div>
+    </div>
   </div>
   <!-- TEXT TRANSLATION END -->
 
   <!-- JAVASCRIPTS -->
   <!-- jQuery -->
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <!-- Bootstrap JS -->
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <!-- Typed JS -->
@@ -346,6 +369,7 @@
   </script>
   <!-- Speech Transcription -->
   <script type="text/javascript" src="./transcription.js"></script>
+  <script type="text/javascript" src="./transcription2.js"></script>
   <!-- Text Translation -->
   <script type="text/javascript" src="./translation.js"></script>
   <!-- My Own JS -->
