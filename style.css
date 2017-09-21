@@ -181,12 +181,12 @@ a:hover {
 
 #results {
   font-size: 14px;
-    font-weight: bold;
-    border: 1px solid #c59a6d;
-    padding: 15px;
-    text-align: left;
-    min-height: 350px;
-    width: auto;
+  font-weight: bold;
+  border: 1px solid #c59a6d;
+  padding: 15px;
+  text-align: left;
+  min-height: 350px;
+  width: auto;
 }
 
 #start_button {
@@ -223,13 +223,25 @@ blockquote p {
   font-size: 20px;
 }
 
+
 /**** FOOTER ****/
+
 .footer {
   width: 100%;
-  height: auto;
   background-color: rgba(198, 155, 110, 0.5);
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.footer, .push {
+  height: 50px;
 }
 
 .footer p {
   text-align: center;
+  margin-bottom: 0px;
+  padding-top: 13px;
 }
