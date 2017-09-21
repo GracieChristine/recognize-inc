@@ -222,3 +222,14 @@ blockquote p {
   display: inline;
   font-size: 20px;
 }
+
+/**** FOOTER ****/
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: rgba(198, 155, 110, 0.5);
+}
+
+.footer p {
+  text-align: center;
+}
