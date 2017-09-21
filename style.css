@@ -84,17 +84,19 @@ hr {
 .video-statement {
   width: 100%;
   text-align: center;
-  margin: 0px;
+  margin: -15px 0px 35px 0;
 }
 
 .ziggeo-video-playing {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .youtube-video-playing {
   text-align: center;
+  margin-top: -50px;
 }
 
 iframe {
