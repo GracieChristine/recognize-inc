@@ -141,7 +141,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 text-translation-initial">
         <b>Translate Text From English</b>
         <br>
         <textarea id="text" cols="45" rows="5"></textarea>
@@ -324,10 +324,10 @@
               <option value="zu">South Africa</option>
             </optgroup>
                   </select>
-          <input type="button" value="Translate" onclick="showIt()" />
+          <button class="btn btn-primary" onclick="showIt()">Translate</button>
         </div>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 text-translation-final">
         <b>Translated Text</b><br>
         <div id="translated"></div>
       </div>

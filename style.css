@@ -175,3 +175,12 @@ a:hover {
 #start_img:focus, #start_button {
   outline: none;
 }
+
+/**** TEXT TRANSLATION ****/
+
+.text-translation-initial, .text-translation-final {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  text-align: center;
+}
