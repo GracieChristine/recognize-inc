@@ -1,6 +1,6 @@
 # Q1 Project - Recognize Inc.
 
-## Currently being refactoring! Coming soon.
+Everything is up-to-date now. Currently, the transcription is not working. It's an ongoing process. Please watch the video demo for functionalities.
 
 Web Demo: http://graciechristine-recognize-inc.surge.sh
 Video Demo: https://youtu.be/k-C_eZLznGE
