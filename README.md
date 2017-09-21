@@ -1,6 +1,10 @@
 # Q1 Project - Recognize Inc.
 
-Everything is up-to-date now. Currently, the transcription is not working. It's an ongoing process. Please watch the video demo for functionalities.
+Everything is up-to-date now. Currently, the transcription is not working. It's an ongoing process. 
+
+Enhancement - Change from a static page to a dynamic website with Vue.JS or Angular2.JS with Node.JS.
+
+Please watch the video demo for current features.
 
 Web Demo: http://graciechristine-recognize-inc.surge.sh
 Video Demo: https://youtu.be/k-C_eZLznGE
