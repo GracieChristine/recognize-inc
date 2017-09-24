@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Typist from 'react-typist'
 import TypistLoop from 'react-typist-loop'
-import {Jumbotron, Col, Row} from 'react-bootstrap';
+import {Jumbotron} from 'react-bootstrap';
 
 import './Statement.css';
 

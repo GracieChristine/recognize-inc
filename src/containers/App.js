@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Navbar} from 'react-bootstrap';
 
-import Statement from './../components/Statement'
+import Statement from './../components/Statement';
+import Feature from './../components/Feature';
 
 import './App.css';
 
@@ -24,6 +25,8 @@ class App extends Component {
       <div className="wrapper">
 
         <Statement />
+        <Feature />
+
 
       </div>
       {/* FOOTER */}
