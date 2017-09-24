@@ -4,6 +4,17 @@ html, body {
   marign: 0;
 }
 
+.navbar {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+a.navbar-brand, p.navbar-text {
+  color: black;
+}
+
 .wrapper {
   min-height: 100%;
   margin-bottom: -50px;
