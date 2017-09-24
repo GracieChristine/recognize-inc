@@ -1,10 +1,12 @@
 {
-  "name": "Recongize Inc.",
+  "name": "Recongize-Inc.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "bootstrap": "^3.3.7",
+    "react-bootstrap": "^0.31.3"
   },
   "devDependencies": {
     "react-scripts": "1.0.13"
