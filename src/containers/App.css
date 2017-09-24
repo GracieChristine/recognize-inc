@@ -36,3 +36,10 @@ html, body {
   padding: 17px;
   margin-bottom: 0;
 }
+
+/**** MEDIA QUERIES ****/
+@media only screen and (max-width: 767px) {
+  .navbar h3 {
+    display: inline-block;
+  }
+}
