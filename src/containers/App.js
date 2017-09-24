@@ -30,7 +30,7 @@ class App extends Component {
 
       </div>
       {/* FOOTER */}
-      <div className="footer">
+      {/* <div className="footer">
         <p>
           &copy; 2017
           <script type="text/javascript">
@@ -38,7 +38,7 @@ class App extends Component {
           </script>
           , Recognize Inc.
         </p>
-      </div>
+      </div> */}
     </div>
 
     );
