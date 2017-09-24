@@ -3,6 +3,7 @@ import {Navbar} from 'react-bootstrap';
 
 import Statement from './../components/Statement';
 import Feature from './../components/Feature';
+import PageBreaker from './../components/PageBreaker';
 
 import './App.css';
 
@@ -26,6 +27,7 @@ class App extends Component {
 
         <Statement />
         <Feature />
+        <PageBreaker />
 
 
       </div>
