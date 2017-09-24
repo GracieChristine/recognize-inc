@@ -12,7 +12,7 @@ class Statement extends Component {
     return (
 
       <Jumbotron>
-        <h3>
+        <h2>
           <TypistLoop interval={3000}>
             {
               ['We Record and Process',
@@ -22,7 +22,7 @@ class Statement extends Component {
               )
             }
           </TypistLoop>
-        </h3>
+        </h2>
       </Jumbotron>
 
     );

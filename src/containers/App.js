@@ -14,11 +14,11 @@ class App extends Component {
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#">Recognize Inc.</a>
+            <a href="#"><h1>Recognize Inc.</h1></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Text pullRight>
-          A simple speech translational plateform
+          <h3>A simple speech translational plateform</h3>
         </Navbar.Text>
       </Navbar>
       {/* CONTENT */}
