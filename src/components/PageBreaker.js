@@ -9,9 +9,17 @@ class PageBreaker extends Component {
 
     return (
 
-      <Jumbotron className="sectionTitle">
-        <h3>Section Header</h3>
-      </Jumbotron>
+      // <div>
+      //     {
+      //       ['Record new or play them',
+      //       'Transcribe it',
+      //       'Translate it'].map(
+      //         text => <Jumbotron className="sectionTitle"><h3 key={text}>{text}</h3></Jumbotron>
+      //       )
+      //     }
+      // </div>
+
+      <Jumbotron className="sectionTitle"><h3>Record new or play existing</h3></Jumbotron>
 
     );
   }
