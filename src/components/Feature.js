@@ -11,14 +11,14 @@ class Feature extends Component {
 
       <Grid>
         <Row className="features">
-          <Col sm={6} md={4}>
+          <Col sm={6} md={4} className="feature">
             <h4>Recorded Video</h4>
           </Col>
-          <Col sm={6} md={4}>
+          <Col sm={6} md={4} className="feature">
             <h4>Speech Transcription</h4>
           </Col>
           <Clearfix visibleSmBlock></Clearfix>
-          <Col sm={6} md={4}>
+          <Col sm={6} md={4} className="feature">
             <h4>Text Translation</h4>
           </Col>
         </Row>

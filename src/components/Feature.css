@@ -1,28 +1,38 @@
 .features {
   text-align: center;
+  margin: 15% 10px;
 }
 
-h4 {
-  margin: 0 auto;
+.feature {
+  /*border: 1px red solid;*/
+  /*width: auto;
+  height: 100%;*/
   padding: 100px 0px;
   transition: all 0.4s ease-in-out;
 }
 
-h4:hover {
+.feature:hover {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
   /*box-shadow: 0px 2px 8px 1px rgba(198, 155, 110, 0.5);*/
 }
 
 
-
 @media only screen and (max-width: 991px) {
-  h4 {
+  .features {
+    margin: 3% 10px;
+  }
+
+  .feature {
     padding: 75px 0px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  h4 {
+  .features {
+    margin: 1% 10px;
+  }
+
+  .feature {
     padding: 50px 0px;
   }
 }
