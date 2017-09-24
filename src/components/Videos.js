@@ -37,7 +37,7 @@ class Videos extends Component {
         />
       </Col>
     </Row>
-    <Row className="youtubeVideo">
+    <Row className="youtube">
       <Col sm={12} md={6} mdOffset={3}>
         <iframe src="https://www.youtube.com/embed/sIgv3tTYYqQ" allowfullscreen></iframe>
       </Col>

@@ -1,8 +1,12 @@
 .recordingVideo {
   text-align: center;
+  margin: 10px auto 30px;
 }
 
 .ba-videorecorder-container {
-  border: 5px #c59a6d solid;
-  margin: 5px auto;
+  /*border: 5px #c59a6d solid;*/
+  padding: 5px;
+  width: 345px;
+  height: 258px;
+  margin: auto;
 }
