@@ -36,7 +36,9 @@ class Videos extends Component {
         />
       </Col>
       <Clearfix visibleSmBlock></Clearfix>
-      <Col sm={12} md={6} mdOffset={3}></Col>
+      <Col sm={12} md={6} mdOffset={3}>
+        <iframe src="https://www.youtube.com/embed/sIgv3tTYYqQ" allowfullscreen></iframe>
+      </Col>
     </Row>
   </Grid>
 
