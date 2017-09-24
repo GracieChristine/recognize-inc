@@ -12,11 +12,12 @@ class Videos extends Component {
     return (
 
       <Grid>
-    <Row>
+    <Row className="recordingVideo">
       <Col sm={12} md={6} mdOffset={3}>
         <ZiggeoRecorder apiKey={'545c23b5e9ea038dd4fb8cb47f40609a'}/>
       </Col>
-      <Clearfix visibleSmBlock></Clearfix>
+    </Row>
+    <Row className="playingVideo">
       <Col sm={6} md={6}>
         <ZiggeoPlayer
           apiKey={'your api key provided by ziggeo'}
@@ -35,7 +36,8 @@ class Videos extends Component {
           ziggeo-skipinitial={false}
         />
       </Col>
-      <Clearfix visibleSmBlock></Clearfix>
+    </Row>
+    <Row className="youtubeVideo">
       <Col sm={12} md={6} mdOffset={3}>
         <iframe src="https://www.youtube.com/embed/sIgv3tTYYqQ" allowfullscreen></iframe>
       </Col>
