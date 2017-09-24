@@ -1,0 +1,23 @@
+/**** GENERAL ****/
+html, body {
+  height: 100%;
+  marign: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+  height: 650px;
+}
+
+.footer {
+  height: 50px;
+  text-align: center;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.footer p {
+  padding: 17px;
+  margin-bottom: 0;
+}
