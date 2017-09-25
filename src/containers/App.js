@@ -7,6 +7,8 @@ import PageBreakerOne from './../components/PageBreakerOne.jsx';
 import Videos from './../components/Videos.jsx';
 import PageBreakerTwo from './../components/PageBreakerTwo.jsx';
 import SpeechTranscription from './../components/SpeechTranscription.jsx';
+import PageBreakerThree from './../components/PageBreakerThree.jsx';
+import TextTranslation from './../components/TextTranslation.jsx';
 
 import './App.css';
 
@@ -34,6 +36,8 @@ class App extends Component {
         <Videos />
         <PageBreakerTwo />
         <SpeechTranscription />
+        <PageBreakerThree />
+        <TextTranslation />
 
       </div>
       {/* FOOTER */}
