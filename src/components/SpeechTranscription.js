@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
-import {Grid, Row, Col, Button, Image} from 'react-bootstrap';
+import {Grid, Row, Col, Button} from 'react-bootstrap';
+import $ from 'jquery';
 
 import './SpeechTranscription.css';
 
 class SpeechTranscription extends Component {
+
+
 
   render() {
 
