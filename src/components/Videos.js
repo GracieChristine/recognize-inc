@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {ZiggeoRecorder} from 'react-ziggeo';
 import {ZiggeoPlayer} from 'react-ziggeo';
-import {Grid, Row, Col, Clearfix} from 'react-bootstrap';
+import {Grid, Row, Col} from 'react-bootstrap';
 
 import './Videos.css';
 

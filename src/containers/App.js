@@ -3,8 +3,9 @@ import {Navbar} from 'react-bootstrap';
 
 import Statement from './../components/Statement';
 import Feature from './../components/Feature';
-import PageBreaker from './../components/PageBreaker';
+import PageBreakerOne from './../components/PageBreakerOne';
 import Videos from './../components/Videos';
+import PageBreakerTwo from './../components/PageBreakerTwo';
 
 import './App.css';
 
@@ -28,9 +29,9 @@ class App extends Component {
 
         <Statement />
         <Feature />
-        <PageBreaker />
+        <PageBreakerOne />
         <Videos />
-
+        <PageBreakerTwo />
 
       </div>
       {/* FOOTER */}
