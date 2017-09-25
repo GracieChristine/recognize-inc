@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {} from 'react-bootstrap';
+import {Grid, Row, Col, Button, Image} from 'react-bootstrap';
 
 import './SpeechTranscription.css';
 
@@ -9,7 +9,12 @@ class SpeechTranscription extends Component {
 
     return (
 
-      <p>Hello</p>
+      <Grid>
+        <Row>
+          <Col>
+          </Col>
+        </Row>
+      </Grid>
 
     );
   }
