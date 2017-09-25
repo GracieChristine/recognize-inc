@@ -7,11 +7,15 @@ class SpeechTranscription extends Component {
 
   render() {
 
+
+
     return (
 
       <Grid>
         <Row>
-          <Col></Col>
+          <Col>
+            
+          </Col>
         </Row>
       </Grid>
 

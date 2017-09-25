@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {Navbar} from 'react-bootstrap';
 
-import Statement from './../components/Statement';
-import Feature from './../components/Feature';
-import PageBreakerOne from './../components/PageBreakerOne';
-import Videos from './../components/Videos';
-import PageBreakerTwo from './../components/PageBreakerTwo';
-import SpeechTranscription from './../components/SpeechTranscription';
+import Statement from './../components/Statement.jsx';
+import Feature from './../components/Feature.jsx';
+import PageBreakerOne from './../components/PageBreakerOne.jsx';
+import Videos from './../components/Videos.jsx';
+import PageBreakerTwo from './../components/PageBreakerTwo.jsx';
+import SpeechTranscription from './../components/SpeechTranscription.jsx';
 
 import './App.css';
 
