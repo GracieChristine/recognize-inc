@@ -10,3 +10,13 @@
   height: 258px;
   margin: auto;
 }
+
+.videoOne, .videoTwo {
+  margin-bottom: 15px;
+}
+
+iframe {
+  width: 100%;
+  min-height: 350px;
+  border: none;
+}
