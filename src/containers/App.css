@@ -1,7 +1,14 @@
 /**** GENERAL ****/
+
 html, body {
   height: 100%;
-  marign: 0;
+  margin: 0;
+  background-color: #fffff0;
+}
+
+.container {
+  max-width: 90%;
+  padding: 0px;
 }
 
 .navbar {
@@ -37,7 +44,9 @@ html, body {
   margin-bottom: 0;
 }
 
+
 /**** MEDIA QUERIES ****/
+
 @media only screen and (max-width: 767px) {
   .navbar h3 {
     display: inline-block;
