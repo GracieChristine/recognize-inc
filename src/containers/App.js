@@ -6,6 +6,7 @@ import Feature from './../components/Feature';
 import PageBreakerOne from './../components/PageBreakerOne';
 import Videos from './../components/Videos';
 import PageBreakerTwo from './../components/PageBreakerTwo';
+import SpeechTranscription from './../components/SpeechTranscription';
 
 import './App.css';
 
@@ -32,6 +33,7 @@ class App extends Component {
         <PageBreakerOne />
         <Videos />
         <PageBreakerTwo />
+        <SpeechTranscription />
 
       </div>
       {/* FOOTER */}
