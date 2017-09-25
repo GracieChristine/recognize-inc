@@ -1,10 +1,7 @@
 import React, {PropTypes, Component} from 'react';
 import {Grid, Row, Col, Button, Image} from 'react-bootstrap';
-import $ from 'jquery';
 
 import './SpeechTranscription.css';
-
-
 
 class SpeechTranscription extends Component {
 
@@ -236,9 +233,6 @@ class SpeechTranscription extends Component {
 
             </div>
           </Col> */}
-          <Col>
-            <div id="addingScript"></div>
-          </Col>
         </Row>
       </Grid>
 
