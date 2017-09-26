@@ -27,7 +27,7 @@ class TextTranslation extends Component {
               <form>
                 <FormGroup controlId="formControlsTextarea">
                   <ControlLabel>Translate Text From English</ControlLabel>
-                  <FormControl componentClass="textarea" placeholder="The text will pass down from the transcription or simply type something out..." id="text" cols="45" rows="10"/>
+                  <FormControl componentClass="textarea" placeholder="The text will pass down from the transcription or simply type something out..." id="text" cols="45"/>
                 </FormGroup>
               </form>
               <div className="processingText">

@@ -6,11 +6,7 @@
   padding: auto 10px;
 }
 
-#text {
-  height: 350px;
-}
-
-#translated {
+#translated, #text {
   height: 350px;
   padding: 5px;
 }
@@ -23,4 +19,12 @@
   width: 50%;
   margin: 0 12%;
   text-align: center;
+}
+
+/**** MEDIA QUERIES ****/
+
+@media only screen and (max-width: 767px) {
+  #translated, #text {
+    height: 175px;
+  }
 }
