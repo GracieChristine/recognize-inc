@@ -1,13 +1,17 @@
 .translational {
-  margin: 50px auto 175px;
+  margin: 15px auto 73px;
 }
 
 .translationalForm, .translationalText {
   padding: auto 10px;
 }
 
+#text {
+  height: 350px;
+}
+
 #translated {
-  height: 250px;
+  height: 350px;
   padding: 5px;
 }
 
