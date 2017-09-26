@@ -3,6 +3,8 @@ import {ZiggeoRecorder} from 'react-ziggeo';
 import {ZiggeoPlayer} from 'react-ziggeo';
 import {Grid, Row, Col} from 'react-bootstrap';
 
+import Config from './../config';
+
 import './Videos.css';
 
 class Videos extends Component {
@@ -14,7 +16,7 @@ class Videos extends Component {
       <Grid>
         <Row>
           <Col sm={6} md={6} className="recordingVideo">
-            <ZiggeoRecorder apiKey={'545c23b5e9ea038dd4fb8cb47f40609a'}/>
+            <ZiggeoRecorder apiKey={Config.ziggeoAPIKey}/>
           </Col>
           <Col sm={6} md={6} className="playingVideo videoOne">
             <ZiggeoPlayer apiKey={'your api key provided by ziggeo'} ziggeo-video={'79ca238eaf0d3a6adb095a3f3ea143f9'} ziggeo-theme={'modern'} ziggeo-themecolor={'red'} ziggeo-skipinitial={false}/>
