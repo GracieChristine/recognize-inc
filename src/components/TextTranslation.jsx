@@ -9,7 +9,7 @@ import {
   Button
 } from 'react-bootstrap';
 
-import {showIt} from './js/Translation';
+import {showIt} from './helpers/Translation';
 
 import './TextTranslation.css';
 
