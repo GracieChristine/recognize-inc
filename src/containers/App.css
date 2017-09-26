@@ -29,13 +29,16 @@ html, body {
 .wrapper {
   min-height: 100%;
   margin-bottom: -50px;
-  height: 650px;
+  /*height: 650px;*/
+}
+
+.footer, .push {
+  height: 50px;
 }
 
 .footer {
-  height: 50px;
   text-align: center;
-  background-color: #f8f8f8;
+  background-color: white;
   border-color: #e7e7e7;
 }
 

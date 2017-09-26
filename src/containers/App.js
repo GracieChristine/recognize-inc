@@ -39,6 +39,8 @@ class App extends Component {
         <PageBreakerThree />
         <TextTranslation />
 
+        <div className="push"></div>
+
       </div>
       {/* FOOTER */}
       <div className="footer">
