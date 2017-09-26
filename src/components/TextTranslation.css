@@ -1,0 +1,18 @@
+.translational, .translationalText {
+  padding: auto 10px;
+}
+
+#translated {
+  height: 250px;
+  padding: 5px;
+}
+
+.targetlabel, .targetLang, .translateBtn {
+  display: inline;
+}
+
+.targetLang {
+  width: 50%;
+  margin: 0 12%;
+  text-align: center;
+}

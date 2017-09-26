@@ -6,7 +6,8 @@ import {
   FormGroup,
   ControlLabel,
   FormControl,
-  Button
+  Button,
+  Well
 } from 'react-bootstrap';
 
 import {showIt} from './helpers/Translation';
@@ -21,7 +22,7 @@ class TextTranslation extends Component {
 
       <Grid>
         <Row>
-          <Col md={6}>
+          <Col sm={6} md={6} className="translational">
             <div className="text-translation-initial">
               <form>
                 <FormGroup controlId="formControlsTextarea">
@@ -32,8 +33,8 @@ class TextTranslation extends Component {
               <div className="processingText">
                 <form>
                   <FormGroup controlId="formControlsSelect">
-                    <ControlLabel>to</ControlLabel>
-                    <FormControl componentClass="select" placeholder="select" id="target">
+                    <ControlLabel className="targetLabel">to</ControlLabel>
+                    <FormControl componentClass="select" placeholder="select" id="target" className="targetLang">
                       <option value="select">select</option>
                       <option value="other">...</option>
                       <optgroup label="Afrikaans">
@@ -212,15 +213,17 @@ class TextTranslation extends Component {
                         <option value="zu">South Africa</option>
                       </optgroup>
                     </FormControl>
+                    <Button className="translateBtn" onClick={showIt}>Translate</Button>
                   </FormGroup>
                 </form>
-                <Button onClick={showIt}>Translate</Button>
               </div>
             </div>
           </Col>
-          <Col md={6}>
+          <Col sm={6} md={6} className="translationalText">
             <div className="text-translation-final">
-              <div id="translated"></div>
+              <ControlLabel>Translated Text</ControlLabel>
+              <Well id="translated">
+              </Well>
             </div>
           </Col>
         </Row>
