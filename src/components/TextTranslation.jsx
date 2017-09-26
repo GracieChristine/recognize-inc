@@ -6,9 +6,10 @@ import {
   FormGroup,
   ControlLabel,
   FormControl,
-  Button,
-  Well
+  Button
 } from 'react-bootstrap';
+
+import {showIt} from './js/Translation';
 
 import './TextTranslation.css';
 
@@ -30,7 +31,7 @@ class TextTranslation extends Component {
             <div className="processingText">
               <form>
                 <FormGroup controlId="formControlsSelect">
-                  <ControlLabel>Select</ControlLabel>
+                  <ControlLabel>to</ControlLabel>
                   <FormControl componentClass="select" placeholder="select" id="target">
                     <option value="select">select</option>
                     <option value="other">...</option>
@@ -216,7 +217,7 @@ class TextTranslation extends Component {
             </div>
             <br />
             <div className="text-translation-final">
-              <Well bsSize="large" id="translated"></Well>
+              <div bsSize="large" id="translated"></div>
             </div>
           </Col>
         </Row>
