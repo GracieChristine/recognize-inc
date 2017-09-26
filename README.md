@@ -1,13 +1,20 @@
 # Q1 Project - Recognize Inc.
 
-Everything is up-to-date now. Currently, the transcription is not working. It's an ongoing process. 
+Sept 26, 2017 Update
+- Web Demo: https://graciechristine.github.io/recognize-inc/
+  - Build and Burn!
+  - Rebuilding as a React application.
+  - Redesigning page layout.
 
-Enhancement - Change from a static page to a dynamic website with Vue.JS or Angular2.JS with Node.JS.
+Sept 12, 2017 Update
+- Web Demo: http://graciechristine-recognize-inc.surge.sh
+  - Build and Burn! Redesigning page layout.
+  - Updating API calls.
 
-Please watch the video demo for current features.
-
-Web Demo: http://graciechristine-recognize-inc.surge.sh
-Video Demo: https://youtu.be/k-C_eZLznGE
+Mar 9, 2017 Original
+- Video Demo: https://youtu.be/k-C_eZLznGE
+  - A static Bootstrap-themed website for layout.
+  - Focus heavily on API calls for Speech Transcription and Text Translation.
 
 ## Project Description
 The ability to upload a video file or simply record live on the website in the Chrome browser, transcribe any language from speech to text, then having the option to translate text to another language.
