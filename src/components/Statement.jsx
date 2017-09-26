@@ -13,7 +13,7 @@ class Statement extends Component {
 
       <Jumbotron>
         <h2>
-          <TypistLoop interval={3000}>
+          <TypistLoop interval={3000} >
             {
               ['We Record and Process',
               '24/7 Available Usage',
