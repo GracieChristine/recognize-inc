@@ -1,6 +1,6 @@
 /*** GENERAL ***/
 .transcriptional {
-  margin: -15px auto 140px;
+  margin: -15px auto 45px;
 }
 
 /*** GOOGLE SPEECH RECOGNITION ***/
@@ -141,8 +141,8 @@ a:hover {
   margin: 40px auto;
   padding: 0 23px 14px 35px;
   width: 85%;
-  max-width: 460px;
-  min-height: 300px;
+  max-width: 500px;
+  min-height: 400px;
   height: auto;
   font: 14px/30px "Open Sans", Georgia, serif;
   color: #282625;
@@ -154,6 +154,7 @@ a:hover {
 
 .notepad :last-child {
   margin-bottom: 0;
+  text-align: center;
 }
 
 .notepad:before, .notepad:after {
