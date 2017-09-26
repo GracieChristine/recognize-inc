@@ -11,6 +11,7 @@ class SpeechTranscription extends Component {
 
       <Grid>
         <Row>
+          {/* GOOGLE SPEECH RECOGNITION */}
           {/* <Col>
             <div id="info">
               <h5 id="info_start">Click on the microphone icon and begin speaking.</h5>
@@ -63,6 +64,7 @@ class SpeechTranscription extends Component {
               </div>
             </div>
           </Col> */}
+          {/* DICTATION.IO */}
           <Col>
 
             <div className="info" id="about">
@@ -203,6 +205,7 @@ class SpeechTranscription extends Component {
               </span>
             </div>
           </Col>
+          {/* NOTES TAKER */}
           {/* <Col>
             <div>
 
