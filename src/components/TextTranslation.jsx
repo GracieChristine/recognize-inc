@@ -21,8 +21,8 @@ class TextTranslation extends Component {
     return (
 
       <Grid>
-        <Row>
-          <Col sm={6} md={6} className="translational">
+        <Row className="translational">
+          <Col sm={6} md={6} className="translationalForm">
             <div className="text-translation-initial">
               <form>
                 <FormGroup controlId="formControlsTextarea">

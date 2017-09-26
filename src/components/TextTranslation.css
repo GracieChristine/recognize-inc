@@ -1,4 +1,8 @@
-.translational, .translationalText {
+.translational {
+  margin: 50px auto 175px;
+}
+
+.translationalForm, .translationalText {
   padding: auto 10px;
 }
 
