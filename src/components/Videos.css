@@ -3,16 +3,27 @@
   margin: 10px auto 30px;
 }
 
-.ba-videorecorder-container {
-  /*border: 5px #c59a6d solid;*/
-  padding: 5px;
-  width: 345px;
-  height: 258px;
-  margin: auto;
+.playingVideo {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.videoOne, .videoTwo {
-  margin-bottom: 15px;
+.ba-videorecorder-container {
+  width: 345px;
+  height: 258px;
+}
+
+.ba-videoplayer-theme-modern-container {
+  width: 77.5%;
+  height: 77.5%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.ba-videorecorder-container, .ba-videoplayer-theme-modern-container {
+  padding: 5px;
+  margin: auto;
+
 }
 
 iframe {
