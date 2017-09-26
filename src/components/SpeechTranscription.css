@@ -110,7 +110,7 @@ a:hover {
   position: relative;
   margin: 60px auto;
   width: 80%;
-  max-width: 600px;
+  max-width: 750px;
   min-width: 200px;
   line-height: 18px;
   font-size: 13px;
@@ -141,7 +141,7 @@ a:hover {
   margin: 40px auto;
   padding: 0 23px 14px 35px;
   width: 85%;
-  max-width: 500px;
+  max-width: 750px;
   min-height: 400px;
   height: auto;
   font: 14px/30px "Open Sans", Georgia, serif;
@@ -240,7 +240,7 @@ a:hover {
 .whatisthis {
   position: absolute;
   bottom: 10px;
-  width: 85%;
+  width: 90%;
 }
 
 #status {
