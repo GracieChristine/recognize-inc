@@ -5,10 +5,10 @@ import Statement from './../components/Statement.jsx';
 import Feature from './../components/Feature.jsx';
 // import PageBreakerOne from './../components/PageBreakerOne.jsx';
 // import Videos from './../components/Videos.jsx';
-// import PageBreakerTwo from './../components/PageBreakerTwo.jsx';
-// import SpeechTranscription from './../components/SpeechTranscription.jsx';
-import PageBreakerThree from './../components/PageBreakerThree.jsx';
-import TextTranslation from './../components/TextTranslation.jsx';
+import PageBreakerTwo from './../components/PageBreakerTwo.jsx';
+import SpeechTranscription from './../components/SpeechTranscription.jsx';
+// import PageBreakerThree from './../components/PageBreakerThree.jsx';
+// import TextTranslation from './../components/TextTranslation.jsx';
 
 import './App.css';
 
@@ -34,10 +34,10 @@ class App extends Component {
         <Feature />
         {/* <PageBreakerOne />
         <Videos /> */}
-        {/* <PageBreakerTwo />
-        <SpeechTranscription /> */}
-        <PageBreakerThree />
-        <TextTranslation />
+        <PageBreakerTwo />
+        <SpeechTranscription />
+        {/* <PageBreakerThree />
+        <TextTranslation /> */}
 
       </div>
       {/* FOOTER */}
