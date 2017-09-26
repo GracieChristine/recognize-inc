@@ -38,13 +38,14 @@ html, body {
 
 .footer {
   text-align: center;
-  background-color: white;
-  border-color: #e7e7e7;
+  background-color: #c59a6d;
+  border-color: #f8f8ff;
 }
 
 .footer p {
   padding: 17px;
   margin-bottom: 0;
+  color: white;
 }
 
 
