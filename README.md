@@ -3,7 +3,7 @@
 Sept 26, 2017 Update
 - Web Demo: https://graciechristine.github.io/recognize-inc/
   - Build and Burn!
-  - Rebuilding as a React application.
+  - Rebuilding as a dynamic website via React.JS.
   - Redesigning page layout.
   - Updating the features.
 
