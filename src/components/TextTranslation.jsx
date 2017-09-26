@@ -213,11 +213,11 @@ class TextTranslation extends Component {
                   </FormControl>
                 </FormGroup>
               </form>
-              <Button onclick="showIt()">Translate</Button>
+              <Button onClick={showIt}>Translate</Button>
             </div>
             <br />
             <div className="text-translation-final">
-              <div bsSize="large" id="translated"></div>
+              <div id="translated"></div>
             </div>
           </Col>
         </Row>
