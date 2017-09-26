@@ -99,7 +99,7 @@ class SpeechTranscription extends Component {
 
             <div className="notepad">
               <div className="notepad-heading">
-                <h1>Transcribe It</h1>
+                {/* <h1>Transcribe It</h1> */}
               </div>
               <div id="speech">
                 <span id="labnol" contenteditable="true"></span>
