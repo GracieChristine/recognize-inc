@@ -1,3 +1,8 @@
+/*** GENERAL ***/
+.transcriptional {
+  margin: -15px auto 140px;
+}
+
 /*** GOOGLE SPEECH RECOGNITION ***/
 
 /*#transcript {
@@ -95,26 +100,6 @@ a:hover {
 
 /*** DICTATION.IO ***/
 
-
-a {
-  color: #222;
-  text-decoration: none;
-}
-
-h1 {
-  /*font-size: 18px;*/
-  font-weight: normal
-}
-
-h2 {
-  font-size: 16px;
-  font-weight: normal
-}
-
-h3 {
-  font-weight: normal
-}
-
 .info a {
   color: #fff;
   text-decoration: underline
@@ -135,19 +120,6 @@ h3 {
   padding: 1em 2em;
   background-color: #000;
   opacity: .9;
-}
-
-html, body {
-  height: 100%;
-  min-height: 100%;
-  padding: 0;
-  margin: 0
-}
-
-body {
-  font: 12px/18px "Open Sans", sans-serif;
-  background: #3498db;
-  color: #404040;
 }
 
 .notepad, .notepad:before, .notepad:after {
@@ -267,7 +239,7 @@ body {
 .whatisthis {
   position: absolute;
   bottom: 10px;
-  width: 94%;
+  width: 85%;
 }
 
 #status {
@@ -325,6 +297,7 @@ a.btn:hover, a.btn:active {
   margin: 0 5px 0 0;
   font: 11px/18px "Open Sans", sans-serif;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #messages a:hover, #messages a.active {
@@ -336,15 +309,15 @@ a.btn:hover, a.btn:active {
   color: #666;
 }
 
-#messages {
-  float: left;
-}
-
 #warning {
   display: block;
   color: #333;
   width: 100%;
   opacity: .9
+}
+
+#lang {
+  color: black;
 }
 
 .social {
