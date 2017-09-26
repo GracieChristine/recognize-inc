@@ -1,6 +1,6 @@
 /*** GOOGLE SPEECH RECOGNITION ***/
 
-#transcript {
+/*#transcript {
   margin: 10px auto 76px auto;
 }
 
@@ -90,13 +90,13 @@ a:hover {
 
 #start_img:focus, #start_button {
   outline: none;
-}
+}*/
 
 
 /*** DICTATION.IO ***/
 
 
-/*a {
+a {
   color: #222;
   text-decoration: none;
 }
@@ -401,7 +401,7 @@ a.btn:hover, a.btn:active {
 .bottomad {
   margin: 2em auto 1em;
   width: 400px;
-}*/
+}
 
 
 /*** NOTES TAKER ***/

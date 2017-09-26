@@ -12,7 +12,7 @@ class SpeechTranscription extends Component {
       <Grid>
         <Row>
           {/* GOOGLE SPEECH RECOGNITION */}
-          <Col>
+          {/* <Col>
             <div id="info">
               <h5 id="info_start">Click on the microphone icon and begin speaking.</h5>
               <h5 id="info_speak_now">Speak now.</h5>
@@ -63,9 +63,9 @@ class SpeechTranscription extends Component {
                 <select id="select_dialect"></select>
               </div>
             </div>
-          </Col>
+          </Col> */}
           {/* DICTATION.IO */}
-          {/* <Col>
+          <Col>
 
             <div className="info" id="about">
               <h1>Speech Recognition in the Browser</h1>
@@ -77,18 +77,13 @@ class SpeechTranscription extends Component {
               <h3>Speak in your Native Language</h3>
               <p>You don't have to speak in English as Chrome's engine can recognize quite a few languages including Arabic, Chinese, Spanish, French, German, Italian, Malay, Indonesian and more. Dictation will automatically determine your browser's default launguage and uses it for subsequent transcriptions.</p>
               <p>Hindi is the only Indian language that is supported at this time.</p>
-              <p>Written by
-                <a href="https://ctrlq.org/">Amit Agarwal</a>
-                for
-                <a href="http://www.labnol.org/">Digital Inspiration</a>.</p>
               <p>
                 <a href="#" onclick="toggleVisibility('1'); return false;">Close</a>
               </p>
             </div>
             <div className="info" id="commands">
               <h2>Dictation Commands and Tips</h2>
-              <p>You can narrate long sentences in one go and Chrome's built-in speech recognition will transcribe them simultaneously. See
-                <a href="https://www.youtube.com/watch?v=fDX-RVCmfWU&hd=1" target="_blank">video demo</a>.</p>
+              <p>You can narrate long sentences in one go and Chrome's built-in speech recognition will transcribe them simultaneously.</p>
               <p>1. Say "New Paragraph" to begin a new paragraph</p>
               <p>2. Say "Comma", "Full Stop", "Question Mark" for punctuation</p>
               <p>3. Click the "Stop Listening" button to end the speech recognition session. You can click the "Start" button again to resume transcription.</p>
@@ -204,7 +199,7 @@ class SpeechTranscription extends Component {
                 </select>
               </span>
             </div>
-          </Col> */}
+          </Col>
           {/* NOTES TAKER */}
           {/* <Col>
             <div>
