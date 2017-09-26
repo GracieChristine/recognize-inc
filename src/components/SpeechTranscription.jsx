@@ -1,4 +1,4 @@
-import React, {PropTypes, Component} from 'react';
+import React, {Component} from 'react';
 import {Grid, Row, Col, Button, Image} from 'react-bootstrap';
 
 import './SpeechTranscription.css';
@@ -12,7 +12,7 @@ class SpeechTranscription extends Component {
       <Grid>
         <Row>
           {/* GOOGLE SPEECH RECOGNITION */}
-          {/* <Col>
+          <Col>
             <div id="info">
               <h5 id="info_start">Click on the microphone icon and begin speaking.</h5>
               <h5 id="info_speak_now">Speak now.</h5>
@@ -63,9 +63,9 @@ class SpeechTranscription extends Component {
                 <select id="select_dialect"></select>
               </div>
             </div>
-          </Col> */}
+          </Col>
           {/* DICTATION.IO */}
-          <Col>
+          {/* <Col>
 
             <div className="info" id="about">
               <h1>Speech Recognition in the Browser</h1>
@@ -204,7 +204,7 @@ class SpeechTranscription extends Component {
                 </select>
               </span>
             </div>
-          </Col>
+          </Col> */}
           {/* NOTES TAKER */}
           {/* <Col>
             <div>
