@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Grid, Row, Col, Button, Well} from 'react-bootstrap';
+import {Grid, Row, Col, Button} from 'react-bootstrap';
 
 import './SpeechTranscription.css';
 
@@ -81,7 +81,7 @@ class SpeechTranscription extends Component {
               <p>You don't have to speak in English as Chrome's engine can recognize quite a few languages including Arabic, Chinese, Spanish, French, German, Italian, Malay, Indonesian and more. Dictation will automatically determine your browser's default launguage and uses it for subsequent transcriptions.</p>
               <p>Hindi is the only Indian language that is supported at this time.</p>
               <p>
-                <a href="#" onclick="toggleVisibility('1'); return false;">Close</a>
+                <Button onclick="toggleVisibility('1'); return false;">Close></Button>
               </p>
             </div>
             <div className="info" id="commands">
@@ -93,7 +93,7 @@ class SpeechTranscription extends Component {
               <h3>Web Speech API in Google Chrome</h3>
               <p>Dictation uses the x-webkit-speech attribute of HTML5 that is only implemented in Google Chrome. This attribute is only implemented for &lt;input&gt; (single-line) form fields so Dictation uses a workaround. It hides the speech-enabled input behind the microphone icon and appends the transcribed text to a regular DIV.</p>
               <p>
-                <a href="#" onclick="toggleVisibility('1'); return false;">Close</a>
+                <Button onclick="toggleVisibility('1'); return false;">Close</Button>
               </p>
             </div>
 
@@ -108,11 +108,11 @@ class SpeechTranscription extends Component {
               </div>
               <div className="whatisthis">
                 <span id="messages">
-                  <a href="#" onclick="javascript:action();return false;" id="btn">Loading..</a>
-                  <a href="#" onclick="javascript:clearSlate();return false;" id="btnClear">Clear</a>
-                  <a href="#" onclick="javascript:save();return false;" id="btnClear" title="Download your text">Save</a>
-                  <a href="#" onclick="copied();return false" data-clipboard-target="#labnol" id="btnCopy" title="Copy the text to clipboard">Copy</a>
-                  <img id="status" src="listen.gif"/>
+                  <Button onclick="javascript:action();return false;" id="btn">Loading...</Button>
+                  <Button click="javascript:clearSlate();return false;" id="btnClear">Clear</Button>
+                  <Button onclick="javascript:save();return false;" id="btnClear" title="Download your text">Save</Button>
+                  <Button onclick="copied();return false" data-clipboard-target="#labnol" id="btnCopy" title="Copy the text to clipboard">Copy</Button>
+                  <img id="status" src="listen.gif" alt="Listening..." />
                 </span>
               </div>
             </div>

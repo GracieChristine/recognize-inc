@@ -20,7 +20,7 @@ class App extends Component {
       <Navbar>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#"><h1>Recognize Inc.</h1></a>
+            <a href="https://graciechristine.github.io/recognize-inc/"><h1>Recognize Inc.</h1></a>
           </Navbar.Brand>
         </Navbar.Header>
         <Navbar.Text pullRight>

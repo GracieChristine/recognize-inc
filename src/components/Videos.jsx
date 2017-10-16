@@ -25,7 +25,7 @@ class Videos extends Component {
             <ZiggeoPlayer apiKey={'your api key provided by ziggeo'} ziggeo-video={'80b243ff58ce34bb90120876edc0a061'} ziggeo-theme={'modern'} ziggeo-themecolor={'red'} ziggeo-skipinitial={false}/>
           </Col>
           <Col sm={6} md={6} className="youtube">
-            <iframe src="https://www.youtube.com/embed/sIgv3tTYYqQ" allowfullscreen></iframe>
+            <iframe title="Commerical on Youtube" src="https://www.youtube.com/embed/sIgv3tTYYqQ" allowfullscreen></iframe>
           </Col>
         </Row>
       </Grid>
