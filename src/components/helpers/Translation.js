@@ -10,8 +10,7 @@ export function showIt() {
     source: "en",
     key: `${Config.googleTranslationAPIKey}`
   }, (response) => {
-    console.log("Response...", response);
-    // $("#translated").html("<blockquote><p>" + response.data.translations[0].translatedText + "</p></blockquote>");
+    $("#translated").html("<blockquote><p>" + response.data.translations[0].translatedText + "</p></blockquote>");
   }, "json").fail((jqXHR, textStatus, errorThrown) => {
     alert("error :" + errorThrown);
 
